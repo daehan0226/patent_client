@@ -18,6 +18,9 @@ const GlobalStyle = createGlobalStyle<{ theme: ThemeProps }>`
         height: 100%;
         width: 100%;
     }
+    a {
+      text-decoration: none;
+    }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',

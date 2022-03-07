@@ -10,6 +10,7 @@ const Btn = styled.button`
     height: 40px;
     margin: 20px;
     padding: 10px;
+    background-color: ${({ theme }) => theme.colors.background};
 
     ::hover {
         background-color: ${({ theme }) => theme.colors.hover};
