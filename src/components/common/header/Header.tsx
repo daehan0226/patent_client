@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Button from '../Button';
+
 const Spacer = styled.div`
     height: 80px;
     ${({ theme }) => theme.media.desktop`
@@ -43,9 +45,7 @@ const Header: React.FC<IHeader> = ({ switchTheme }) => {
     return (
         <>
             <Container>
-                <button type="button" onClick={() => switchTheme()}>
-                    Switch Theme
-                </button>
+                <Button text="Switch Theme" handleClick={switchTheme} />
             </Container>
 
             <Spacer />
