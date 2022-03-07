@@ -7,10 +7,12 @@ export const lightTheme: colorProps = {
     text: '#363537',
     toggleBorder: '#FFF',
     background: '#363537',
+    hover: '#363537',
 };
 export const darkTheme: colorProps = {
     body: '#363537',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
     background: '#999',
+    hover: '#363537',
 };

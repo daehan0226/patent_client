@@ -47,10 +47,10 @@ const App = () => {
                     <Header switchTheme={themeToggler} />
                     <Main>
                         <Routes>
-                            <Route path="/member" element={<Member />} />
+                            <Route path="/" element={<Home />} />
+                            <Route path="/member/*" element={<Member />} />
                             <Route path="/admin" element={<Admin />} />
                             <Route path="/account" element={<Account />} />
-                            <Route path="/" element={<Home />} />
                             <Route path="/*" element={<Navigate replace to="/" />} />
                         </Routes>
                     </Main>
